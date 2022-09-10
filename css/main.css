@@ -1,0 +1,164 @@
+/* line 2, main.scss */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope","Helvetica",sans-serif; }
+
+/* line 21, main.scss */
+html {
+  font-size: 14px; }
+
+/* line 25, main.scss */
+.footer {
+  padding-top: .5em;
+  margin-top: 1em;
+  background-color: #545454; }
+
+/* line 31, main.scss */
+.carousel img {
+  opacity: 0.5;
+  min-height: 50%; }
+
+/* line 36, main.scss */
+#accordion1 {
+  display: none; }
+
+/* line 39, main.scss */
+.articles-section {
+  margin-top: 1em; }
+  /* line 41, main.scss */
+  .articles-section .article-card {
+    padding: .6rem; }
+
+/* line 45, main.scss */
+.footer-copyright {
+  color: #b3b3b3;
+  border-top: 1px solid #b3b3b3;
+  padding: .4rem; }
+
+/* line 51, main.scss */
+.btn-outline-success {
+  border-color: #429eff;
+  color: #429eff; }
+  /* line 54, main.scss */
+  .btn-outline-success:hover {
+    background-color: #429eff;
+    border-color: #429eff; }
+
+/* line 61, main.scss */
+.carousel-item .btn-success,
+.nav-item .btn-success {
+  background-color: #429eff;
+  border-color: #429eff;
+  padding: .7em 2em;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 5px; }
+  /* line 68, main.scss */
+  .carousel-item .btn-success:hover,
+  .nav-item .btn-success:hover {
+    background-color: #004c9e;
+    border-color: #004c9e; }
+  /* line 72, main.scss */
+  .carousel-item .btn-success:active,
+  .nav-item .btn-success:active {
+    background-color: #429eff; }
+  /* line 75, main.scss */
+  .carousel-item .btn-success:focus,
+  .nav-item .btn-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 76, 158, 0.5) !important; }
+
+/* line 81, main.scss */
+.nav-link {
+  font-size: 1.3rem; }
+
+/* line 84, main.scss */
+.footer-link-list {
+  padding: 1rem; }
+  /* line 86, main.scss */
+  .footer-link-list ul {
+    list-style: none; }
+  /* line 89, main.scss */
+  .footer-link-list a {
+    display: block;
+    text-decoration: none;
+    color: #b3b3b3;
+    transition-duration: 150ms; }
+    /* line 94, main.scss */
+    .footer-link-list a:hover {
+      color: #429eff; }
+  /* line 98, main.scss */
+  .footer-link-list h2 {
+    color: #d9d9d9;
+    font-weight: 500;
+    text-transform: uppercase; }
+
+/* line 105, main.scss */
+.inline ul {
+  display: flex;
+  gap: 2em; }
+  /* line 108, main.scss */
+  .inline ul a {
+    font-size: 2rem; }
+
+/* line 114, main.scss */
+.navbar-brand img {
+  width: 150px;
+  height: auto; }
+
+/* line 119, main.scss */
+.card-body {
+  background-color: #545454; }
+
+/* line 122, main.scss */
+.article-card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+/* line 129, main.scss */
+#accordion1 {
+  width: 100%; }
+  /* line 131, main.scss */
+  #accordion1 .card-header {
+    text-transform: uppercase;
+    background-color: #545454;
+    border-color: #b3b3b3; }
+    /* line 135, main.scss */
+    #accordion1 .card-header a {
+      color: #b3b3b3; }
+      /* line 137, main.scss */
+      #accordion1 .card-header a:hover {
+        color: #429eff; }
+
+/* line 147, main.scss */
+.article-main {
+  max-width: 70ch;
+  margin: auto;
+  padding: 1.5em;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2); }
+
+@media screen and (max-width: 768px) {
+  /* line 156, main.scss */
+  #accordion1 {
+    display: block; }
+
+  /* line 159, main.scss */
+  .footer-list {
+    display: none; }
+
+  /* line 162, main.scss */
+  nav[aria-label="breadcrumb"] {
+    display: none; }
+
+  /* line 165, main.scss */
+  .footer {
+    background-color: initial; } }
+
+/*# sourceMappingURL=main.css.map */
